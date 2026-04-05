@@ -1,0 +1,41 @@
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.venv/
+
+# Кэш и данные
+knowledge_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Логи
+logs/
+*.log
+
+# Файлы IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS файлы
+.DS_Store
+Thumbs.db
+
+# Секреты и конфиги
+.env
+*.key
+*.pem
+
+# Базы данных ChromaDB (могут быть большими)
+chroma_db/
+*.sqlite3
+
+# Временные файлы
+temp/
+tmp/
